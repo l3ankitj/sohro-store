@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google Tag Manager — replace GTM-XXXXXXX with your container ID -->
+  <!-- Google Tag Manager — uncomment and replace GTM-XXXXXXX with your container ID
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  -->
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Google Search Console verification — replace content value after verifying property -->
   <!-- <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE" /> -->
+
+  <!-- Favicon, theme-color, manifest -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#232019" />
+  <link rel="manifest" href="/site.webmanifest" />
 
   <!-- Dynamic title + meta — updated per route by app.jsx updateMeta() -->
   <title>Sohro — Handmade Clothing for Women</title>
@@ -41,23 +47,24 @@
   <!-- LCP preload — hero image above the fold -->
   <link rel="preload" as="image" href="https://images.unsplash.com/photo-1571513800374-df1bbe650e56?w=1300&q=78&auto=format&fit=crop" fetchpriority="high" />
 
-  <!-- Google Analytics 4 — replace G-XXXXXXXXXX with your real Measurement ID -->
+  <!-- Google Analytics 4 — uncomment and replace G-XXXXXXXXXX with your real Measurement ID
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    /* gtag('js', new Date());
     gtag('config', 'G-XXXXXXXXXX', {
       send_page_view: false,
       currency: 'INR',
-    });
+    }); */
     window.__analytics = {
-      page:  function(path)         { gtag('event', 'page_view', { page_path: path, page_location: window.location.href }); },
-      event: function(name, params) { gtag('event', name, params || {}); },
+      page:  function(path)         { if (typeof gtag === 'function') gtag('event', 'page_view', { page_path: path, page_location: window.location.href }); },
+      event: function(name, params) { if (typeof gtag === 'function') gtag('event', name, params || {}); },
     };
   </script>
 
-  <!-- Meta Pixel — replace PIXEL_ID_HERE with your real Pixel ID -->
+  <!-- Meta Pixel — uncomment and replace PIXEL_ID_HERE with your real Pixel ID
   <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -66,8 +73,9 @@
   document,'script','https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', 'PIXEL_ID_HERE');
   </script>
+  -->
 
-  <!-- Pinterest Tag — replace PINTEREST_TAG_ID with your tag ID -->
+  <!-- Pinterest Tag — uncomment and replace PINTEREST_TAG_ID with your tag ID
   <script>
   !function(e){if(!window.pintrk){window.pintrk=function(){
   window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
@@ -77,8 +85,9 @@
   r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
   pintrk('load','PINTEREST_TAG_ID',{em:''});
   </script>
+  -->
 
-  <!-- Microsoft Clarity — replace YOUR_CLARITY_ID with your project ID (free at clarity.microsoft.com) -->
+  <!-- Microsoft Clarity — uncomment and replace YOUR_CLARITY_ID with your project ID (free at clarity.microsoft.com)
   <script type="text/javascript">
   (function(c,l,a,r,i,t,y){
     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -86,6 +95,7 @@
     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
   })(window,document,"clarity","script","YOUR_CLARITY_ID");
   </script>
+  -->
 
   <!-- Google Sign-In -->
   <script>window.GOOGLE_CLIENT_ID = "575028730971-0s5l90021m6v8qmmn5cpc5r46fs960td.apps.googleusercontent.com";</script>
@@ -101,17 +111,20 @@
   </style>
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) — uncomment when GTM is configured
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  -->
 
-  <!-- Meta Pixel noscript fallback -->
+  <!-- Meta Pixel noscript fallback — uncomment when Pixel is configured
   <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=PIXEL_ID_HERE&ev=PageView&noscript=1"/></noscript>
+  -->
 
-  <!-- Pinterest noscript fallback -->
+  <!-- Pinterest noscript fallback — uncomment when Pinterest Tag is configured
   <noscript><img height="1" width="1" style="display:none;" alt=""
     src="https://ct.pinterest.com/v3/?tid=PINTEREST_TAG_ID&noscript=1" /></noscript>
+  -->
 
   <a href="#main-content" class="skip-link">Skip to content</a>
   <div id="boot">SOHRO</div>
