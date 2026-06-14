@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
+  <url><loc>https://sohro.in/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sohro.in/shop</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sohro.in/our-story</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/shipping-returns</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+
+  <!-- Category pages -->
+  <url><loc>https://sohro.in/categories/dresses</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sohro.in/categories/kurta-sets</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sohro.in/categories/co-ord-sets</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sohro.in/categories/suit-sets</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+
+  <!-- Collection pages -->
+  <url><loc>https://sohro.in/collections/pastel-riverie</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/collections/gulmohar</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/collections/sitaara</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/collections/whispers</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/collections/tamara</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/collections/garden-poem</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/collections/noor</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sohro.in/collections/chaandni</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- Product pages — name-based slugs -->
+  <url><loc>https://sohro.in/products/surmayi-kurta-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/noor-co-ord-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/pearl-dress</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/gulmohar-suit-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/kyla-slip-dress</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/sitaara-kurta-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/baby-blue-dress</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/chaandni-co-ord</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/riverie-kurta-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/tamara-suit-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/poppy-dress</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/gulab-kurta-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/meera-slip-dress</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/basant-co-ord</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/anokha-kurta-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/mishti-suit-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/rooh-dress</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/khushboo-kurta-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/neel-co-ord</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/paro-dress</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/asha-kurta-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sohro.in/products/kesari-suit-set</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+
+</urlset>

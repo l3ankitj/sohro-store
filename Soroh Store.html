@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sohro — Handmade clothing for women</title>
+  <meta name="description" content="Sohro — Quietly considered clothing for women. Handwoven cotton, linen and silk, made in small batches in India." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sohro — Handmade clothing for women" />
+  <meta property="og:description" content="Quietly considered clothing for women — handmade in small batches, made to be lived in." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1571513800374-df1bbe650e56?w=1200&q=85&auto=format&fit=crop" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sohro — Handmade clothing for women" />
+  <meta name="twitter:description" content="Quietly considered clothing for women — handmade in small batches, made to be lived in." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&family=Marcellus&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    #boot { position: fixed; inset: 0; display: grid; place-items: center; background: #E5DDCF; z-index: 999; transition: opacity .4s ease; font-family: "Cormorant Garamond", serif; letter-spacing: .3em; color: #232019; font-size: 26px; }
+    #boot.hide { opacity: 0; pointer-events: none; }
+  </style>
+</head>
+<body>
+  <div id="boot">SOHRO</div>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <!-- Google Sign-In — replace YOUR_CLIENT_ID with the OAuth 2.0 Client ID from console.cloud.google.com -->
+  <script>window.GOOGLE_CLIENT_ID = "575028730971-0s5l90021m6v8qmmn5cpc5r46fs960td.apps.googleusercontent.com";</script>
+  <script src="https://accounts.google.com/gsi/client" async></script>
+
+  <!-- Analytics placeholder — swap ANALYTICS_ID for your GA4 measurement ID -->
+  <script>
+    const ANALYTICS_ID = "G-XXXXXXXXXX";
+    window.__analytics = {
+      page:  function(path)         { if (window.gtag) gtag("event", "page_view",    { page_path: "/" + path }); },
+      event: function(name, params) { if (window.gtag) gtag("event", name, params || {}); },
+    };
+  </script>
+
+  <script src="data.js"></script>
+  <script src="validate.js"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="ui.jsx"></script>
+  <script type="text/babel" src="pages.jsx"></script>
+  <script type="text/babel" src="app.jsx" data-presets="react"></script>
+  <script>
+    // hide boot splash once React mounts
+    const obs = new MutationObserver(() => {
+      if (document.querySelector('#root .header')) {
+        document.getElementById('boot').classList.add('hide');
+        obs.disconnect();
+      }
+    });
+    obs.observe(document.getElementById('root'), { childList: true, subtree: true });
+    setTimeout(() => document.getElementById('boot').classList.add('hide'), 4000);
+  </script>
+</body>
+</html>

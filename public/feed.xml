@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Google Merchant Center product feed.
+  Image URLs derived from data.js PATTERN array:
+    GOOD  = [ochre, blouse, floral, rack, saree]
+    GOOD IDs:
+      ochre  = 1571513800374-df1bbe650e56
+      blouse = 1564257631407-4deb1f99d992
+      floral = 1483985988355-763728e1935b
+      rack   = 1490481651871-ab68de25d43d
+      saree  = 1610030469983-98e550d6193c
+    PATTERN = [0,3,2,4,1,0,3,2,4,2,1,3] (repeating)
+    p.img = GOOD[PATTERN[i % 12]]
+-->
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+  <title>Sohro</title>
+  <link>https://sohro.in</link>
+  <description>Handmade clothing for women — made in India</description>
+
+  <!-- p1 i=0 PATTERN[0]=0 → ochre -->
+  <item>
+    <g:id>p1</g:id>
+    <title>Surmayi Kurta Set — Handwoven Cotton</title>
+    <description>A breezy three-piece in handwoven cotton, block-printed by hand in soft indigo. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/surmayi-kurta-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1571513800374-df1bbe650e56?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>15800 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing &gt; Salwar &amp; Kurta</g:google_product_category>
+    <g:product_type>Kurta Sets</g:product_type><g:material>Handwoven cotton</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group><g:color>Indigo</g:color>
+    <g:custom_label_0>Garden Poem</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p2 i=1 PATTERN[1]=3 → rack -->
+  <item>
+    <g:id>p2</g:id>
+    <title>Noor Co-ord Set — Pure Linen</title>
+    <description>Relaxed co-ord with a cropped overshirt and wide-leg trousers in airy linen. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/noor-co-ord-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>11660 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfits &amp; Sets</g:google_product_category>
+    <g:product_type>Co-ord Sets</g:product_type><g:material>Pure linen</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Pastel Riverie</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p3 i=2 PATTERN[2]=2 → floral -->
+  <item>
+    <g:id>p3</g:id>
+    <title>Pearl Dress — Cotton Mul</title>
+    <description>A column dress with a quiet drape, finished with hand-rolled hems. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/pearl-dress</link>
+    <g:image_link>https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>8650 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:product_type>Dresses</g:product_type><g:material>Cotton mul</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Whispers</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p4 i=3 PATTERN[3]=4 → saree -->
+  <item>
+    <g:id>p4</g:id>
+    <title>Gulmohar Suit Set — Chanderi Silk</title>
+    <description>Anarkali silhouette with fine mukaish detailing across the yoke. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/gulmohar-suit-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>18850 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing</g:google_product_category>
+    <g:product_type>Suit Sets</g:product_type><g:material>Chanderi silk</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Gulmohar</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p5 i=4 PATTERN[4]=1 → blouse -->
+  <item>
+    <g:id>p5</g:id>
+    <title>Kyla Slip Dress — Cupro Blend</title>
+    <description>An easy bias-cut slip that moves with you, in a warm sand wash. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/kyla-slip-dress</link>
+    <g:image_link>https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>7650 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:product_type>Dresses</g:product_type><g:material>Cupro blend</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Sweet Serenade</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p6 i=5 PATTERN[5]=0 → ochre -->
+  <item>
+    <g:id>p6</g:id>
+    <title>Sitaara Kurta Set — Handwoven Cotton</title>
+    <description>Straight kurta with churidar, hand-embroidered with small star motifs. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/sitaara-kurta-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1571513800374-df1bbe650e56?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>16400 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing &gt; Salwar &amp; Kurta</g:google_product_category>
+    <g:product_type>Kurta Sets</g:product_type><g:material>Handwoven cotton</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Sitaara</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p7 i=6 PATTERN[6]=3 → rack -->
+  <item>
+    <g:id>p7</g:id>
+    <title>Baby Blue Dress — Cotton Voile</title>
+    <description>A soft tiered dress in the lightest blue, made for slow summer days. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/baby-blue-dress</link>
+    <g:image_link>https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>7300 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:product_type>Dresses</g:product_type><g:material>Cotton voile</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Summer Breeze</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p8 i=7 PATTERN[7]=2 → floral -->
+  <item>
+    <g:id>p8</g:id>
+    <title>Chaandni Co-ord — Linen Blend</title>
+    <description>Moon-pale co-ord with mother-of-pearl buttons and a clean notch collar. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/chaandni-co-ord</link>
+    <g:image_link>https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>12900 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfits &amp; Sets</g:google_product_category>
+    <g:product_type>Co-ord Sets</g:product_type><g:material>Linen blend</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Chaandni</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p9 i=8 PATTERN[8]=4 → saree -->
+  <item>
+    <g:id>p9</g:id>
+    <title>Riverie Kurta Set — Mulmul Cotton</title>
+    <description>A-line kurta with palazzo, in a watercolour wash of clay and cream. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/riverie-kurta-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>14300 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing &gt; Salwar &amp; Kurta</g:google_product_category>
+    <g:product_type>Kurta Sets</g:product_type><g:material>Mulmul cotton</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Pastel Riverie</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p10 i=9 PATTERN[9]=2 → floral -->
+  <item>
+    <g:id>p10</g:id>
+    <title>Tamara Suit Set — Cotton Silk</title>
+    <description>Statement suit set with a flared sharara and delicate gota piping. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/tamara-suit-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>19850 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing</g:google_product_category>
+    <g:product_type>Suit Sets</g:product_type><g:material>Cotton silk</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Tamara</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p11 i=10 PATTERN[10]=1 → blouse -->
+  <item>
+    <g:id>p11</g:id>
+    <title>Poppy Dress — Cotton Poplin</title>
+    <description>A buttoned shirtdress with a softly gathered waist and deep pockets. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/poppy-dress</link>
+    <g:image_link>https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>6750 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:product_type>Dresses</g:product_type><g:material>Cotton poplin</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Garden Poem</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p12 i=11 PATTERN[11]=3 → rack -->
+  <item>
+    <g:id>p12</g:id>
+    <title>Gulab Kurta Set — Chanderi</title>
+    <description>Rose-tinted kurta set with hand-quilted detailing along the placket. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/gulab-kurta-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>18850 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing &gt; Salwar &amp; Kurta</g:google_product_category>
+    <g:product_type>Kurta Sets</g:product_type><g:material>Chanderi</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Whispers</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p13 i=12 PATTERN[0]=0 → ochre -->
+  <item>
+    <g:id>p13</g:id>
+    <title>Meera Slip Dress — Cupro Silk</title>
+    <description>A slip dress in the softest ivory cupro — elegant enough for evenings, easy enough for slow days. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/meera-slip-dress</link>
+    <g:image_link>https://images.unsplash.com/photo-1571513800374-df1bbe650e56?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>7950 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:product_type>Dresses</g:product_type><g:material>Cupro silk</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Noor</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p14 i=13 PATTERN[1]=3 → rack -->
+  <item>
+    <g:id>p14</g:id>
+    <title>Basant Co-ord — Cotton Voile</title>
+    <description>A relaxed-fit shirt and tapered trousers, hand block-printed in small garden florals. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/basant-co-ord</link>
+    <g:image_link>https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>13800 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfits &amp; Sets</g:google_product_category>
+    <g:product_type>Co-ord Sets</g:product_type><g:material>Cotton voile</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Garden Poem</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p15 i=14 PATTERN[2]=2 → floral -->
+  <item>
+    <g:id>p15</g:id>
+    <title>Anokha Kurta Set — Mulmul Cotton</title>
+    <description>Straight kurta with sharara in moon-white cotton, finished with hand-quilted panels. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/anokha-kurta-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>16800 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing &gt; Salwar &amp; Kurta</g:google_product_category>
+    <g:product_type>Kurta Sets</g:product_type><g:material>Mulmul cotton</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Chaandni</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p16 i=15 PATTERN[3]=4 → saree -->
+  <item>
+    <g:id>p16</g:id>
+    <title>Mishti Suit Set — Georgette</title>
+    <description>Anarkali suit in layered georgette with a watercolour hand-print and delicate coin-lace hem. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/mishti-suit-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>21500 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing</g:google_product_category>
+    <g:product_type>Suit Sets</g:product_type><g:material>Georgette</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Pastel Riverie</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p17 i=16 PATTERN[4]=1 → blouse -->
+  <item>
+    <g:id>p17</g:id>
+    <title>Rooh Dress — Cotton Print</title>
+    <description>A soft midi with hand-smocked bodice and flowing gathered skirt in star-print cotton. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/rooh-dress</link>
+    <g:image_link>https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>9400 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:product_type>Dresses</g:product_type><g:material>Cotton print</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Sitaara</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p18 i=17 PATTERN[5]=0 → ochre -->
+  <item>
+    <g:id>p18</g:id>
+    <title>Khushboo Kurta Set — Handwoven Cotton</title>
+    <description>Festival kurta set with blooming gulmohar embroidery across the yoke on handwoven cotton. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/khushboo-kurta-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1571513800374-df1bbe650e56?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>15200 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing &gt; Salwar &amp; Kurta</g:google_product_category>
+    <g:product_type>Kurta Sets</g:product_type><g:material>Handwoven cotton</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Gulmohar</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p19 i=18 PATTERN[6]=3 → rack -->
+  <item>
+    <g:id>p19</g:id>
+    <title>Neel Co-ord — Linen</title>
+    <description>Structured co-ord with a peplum top and wide palazzo, in rich indigo linen. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/neel-co-ord</link>
+    <g:image_link>https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>14600 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Outfits &amp; Sets</g:google_product_category>
+    <g:product_type>Co-ord Sets</g:product_type><g:material>Linen</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Tamara</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p20 i=19 PATTERN[7]=2 → floral -->
+  <item>
+    <g:id>p20</g:id>
+    <title>Paro Dress — Cotton Crinkle</title>
+    <description>Effortless wrap dress in a crinkle-cotton weave with pearl buttons down the front. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/paro-dress</link>
+    <g:image_link>https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>8200 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Dresses</g:google_product_category>
+    <g:product_type>Dresses</g:product_type><g:material>Cotton crinkle</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Chaandni</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p21 i=20 PATTERN[8]=4 → saree -->
+  <item>
+    <g:id>p21</g:id>
+    <title>Asha Kurta Set — Handwoven Cotton</title>
+    <description>Relaxed kurta with patiala in pale moonlit ivory cotton with a hand-loomed texture. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/asha-kurta-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>13900 INR</g:price><g:availability>in_stock</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing &gt; Salwar &amp; Kurta</g:google_product_category>
+    <g:product_type>Kurta Sets</g:product_type><g:material>Handwoven cotton</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Noor</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+  <!-- p22 i=21 PATTERN[9]=2 → floral -->
+  <item>
+    <g:id>p22</g:id>
+    <title>Kesari Suit Set — Cotton Silk</title>
+    <description>Statement Anarkali in saffron-gold silk cotton with thread-worked borders. Handmade in small batches in India.</description>
+    <link>https://sohro.in/products/kesari-suit-set</link>
+    <g:image_link>https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&amp;q=85&amp;auto=format&amp;fit=crop</g:image_link>
+    <g:price>20400 INR</g:price><g:availability>limited_availability</g:availability>
+    <g:brand>Sohro</g:brand><g:condition>new</g:condition>
+    <g:google_product_category>Apparel &amp; Accessories &gt; Clothing &gt; Traditional &amp; Ceremonial Clothing</g:google_product_category>
+    <g:product_type>Suit Sets</g:product_type><g:material>Cotton silk</g:material>
+    <g:gender>female</g:gender><g:age_group>adult</g:age_group>
+    <g:custom_label_0>Whispers</g:custom_label_0>
+    <g:shipping><g:country>IN</g:country><g:price>0 INR</g:price></g:shipping>
+  </item>
+
+</channel>
+</rss>
