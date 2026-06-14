@@ -5,3 +5,6 @@ dist
 .superpowers
 uploads
 *.log
+
+# Local Netlify folder
+.netlify

@@ -12,7 +12,7 @@
 
 /* ---------- Direction A — Editorial Minimal ---------- */
 [data-dir="a"] {
-  --bg: #E5DDCF;
+  --bg: #FAF8F5;
   --surface: #FFFFFF;
   --surface-2: #F2E8EF;
   --ink: #232019;
@@ -36,7 +36,7 @@
 
 /* ---------- Direction B — Warm Artisanal ---------- */
 [data-dir="b"] {
-  --bg: #E5DDCF;
+  --bg: #FAF8F5;
   --surface: #FFF0F6;
   --surface-2: #E8D8E4;
   --ink: #2c2116;
@@ -69,7 +69,7 @@
 html, body { margin: 0; padding: 0; }
 
 body {
-  background: #E5DDCF;
+  background: #FAF8F5;
   color: #232019;
   font-family: var(--font-body);
   font-size: calc(16px * var(--fs));
